@@ -41,7 +41,40 @@ a {
 .header-top ul {
   display: flex;
   list-style-type: none;
-  gap: 8px;
+  gap: 20px;
+}
+
+.header-top-logo {
+  padding: 10px 10px 10px 0px;
+}
+
+.header-bottom {
+  display: flex;
+  gap: 150px;
+}
+
+.header-bottom-heading {
+  padding-bottom: 10px;
+}
+
+.header-bottom-text {
+  line-height: 1.5;
+}
+
+.header-logo {
+  width: 200px;
+  height: auto;
+  padding: 8px 0px 8px 8px;
+  /*margin-top: -28px;
+  margin-right: -16px;*/
+}
+
+.signup-button {
+  border-radius: 5px;
+  border: 1px solid darkslategray;
+  color: darkslategray;
+  padding: 3px;
+  background-color: #e5e7eb;
 }
 
 .content-container {
@@ -53,7 +86,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /*gap: 32px;*/
   flex: 1;
   flex-wrap: wrap;
   gap: 32px;

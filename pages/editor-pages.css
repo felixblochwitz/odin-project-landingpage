@@ -44,6 +44,10 @@ a {
   gap: 8px;
 }
 
+.header-top-logo {
+  padding: 10px 10px 10px 0px;
+}
+
 .header-bottom {
   display: flex;
   justify-content: space-between;
