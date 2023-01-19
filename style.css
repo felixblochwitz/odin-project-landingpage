@@ -119,11 +119,51 @@ a {
 .box-subtext {
   margin-top: 8px;
   color: darkslategray;
+  text-align: center;
 }
 
 .content-bottom {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
   background-color: #e5e7eb;
   flex: 1;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.official {
+    margin-right: 0px;
+}
+
+.cta-box, .cta-button {
+    font-size: 20px;
+    padding: 16px;
+    background: white;
+    border-radius: 10px;
+}
+
+.cta-box {
+    align-self: center;
+    justify-self: right;
+    margin-left: 0px;
+}
+
+.cta-button {
+    padding: 4px;
+    border-color: white;
+    background-color: #11c5f7;
+    border-style: solid;
 }
 
 .footer-container {
